@@ -2,7 +2,7 @@ function convertBFormToStereo(filename)
 % https://wiki.xiph.org/Ambisonics
 % http://pcfarina.eng.unipr.it/Aurora/B-Format_to_UHJ.htm
 % http://www.dsprelated.com/showthread/matlab/5198-1.php
-% Modified to run on an entire directory of wav files
+% A bugfix or two plus modified to run on an entire directory of wav files
 
 myDir = uigetdir;
 myFiles = dir(fullfile(myDir,'*.wav')); 
