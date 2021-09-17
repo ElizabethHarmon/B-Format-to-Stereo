@@ -22,7 +22,7 @@ Y = WXYZ(:,3);
 % get numel for fft
 N = numel(W);
 
-% caclulate Left and Right channels
+% caculate Left and Right channels
 % L = (X + Y)/sqrt(2);
 % R = (X - Y)/sqrt(2);
 
